@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Группы</title>
+</head>
+<body>
+<h1>Группы</h1>
+
+{% for el in data %}
+<p>
+    <a href="{{ el.slug }}">{{el.title}}</a>
+</p>
+{% endfor %}
+<table>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
